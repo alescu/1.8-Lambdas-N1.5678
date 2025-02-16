@@ -37,13 +37,10 @@ public class Main {
         // passant-li una cadena i comprova si el resultat és correcte.
 
         Reverser strInv = (String _str) -> {
-            String str = _str;
-            StringBuffer strb = new StringBuffer();
-            for (int i = str.length(); i <= 0; i--) {
-                strb.append()[str.i];
-            }
-            ;
-        }
+            StringBuilder strb = new StringBuilder(_str);
+            return strb.reverse().toString();
+        };
 
+        System.out.println("\nExercici 8 per 'Forat' : " +strInv.reverse("Forat"));
     }
 }

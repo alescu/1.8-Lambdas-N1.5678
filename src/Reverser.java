@@ -1,4 +1,4 @@
 @FunctionalInterface
 interface Reverser {
-    String reverse();
+    String reverse(String _str);
 }
